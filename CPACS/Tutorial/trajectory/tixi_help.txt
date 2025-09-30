@@ -1,0 +1,238 @@
+Help on Tixi3 in module tixi3.tixi3wrapper object:
+
+class Tixi3(builtins.object)
+ |  Methods defined here:
+ |
+ |  __del__(self)
+ |
+ |  __init__(self)
+ |      Initialize self.  See help(type(self)) for accurate signature.
+ |
+ |  addBooleanElement(self, parentPath, elementName, boolean)
+ |
+ |  addBooleanElementNS(self, parentPath, qualifiedName, namespaceURI, boolean)
+ |
+ |  addCpacsHeader(self, name, creator, version, description, cpacsVersion)
+ |
+ |  addDoubleAttribute(self, elementPath, attributeName, number, format)
+ |
+ |  addDoubleElement(self, parentPath, elementName, number, format)
+ |
+ |  addDoubleElementNS(self, parentPath, qualifiedName, namespaceURI, number, format)
+ |
+ |  addDoubleListWithAttributes(self, parentPath, listName, childName, childAttributeName, values, format, attributes, nValues)
+ |
+ |  addExternalLink(self, parentPath, pathOrUrl, filename, mode)
+ |
+ |  addFloatVector(self, parentPath, elementName, vector, numElements, format)
+ |
+ |  addHeader(self, toolName, version, authorName)
+ |
+ |  addIntegerAttribute(self, elementPath, attributeName, number, format)
+ |
+ |  addIntegerElement(self, parentPath, elementName, number, format)
+ |
+ |  addIntegerElementNS(self, parentPath, qualifiedName, namespaceURI, number, format)
+ |
+ |  addPoint(self, pointParentPath, x, y, z, format)
+ |
+ |  addTextAttribute(self, elementPath, attributeName, attributeValue)
+ |
+ |  addTextElement(self, parentPath, elementName, text)
+ |
+ |  addTextElementAtIndex(self, parentPath, elementName, text, index)
+ |
+ |  addTextElementNS(self, parentPath, qualifiedName, namespaceURI, text)
+ |
+ |  addTextElementNSAtIndex(self, parentPath, qualifiedName, namespaceURI, text, index)
+ |
+ |  checkAttribute(self, elementPath, attributeName)
+ |      boolean return values from special return code is coded manually here
+ |
+ |  checkDocumentHandle(self)
+ |
+ |  checkElement(self, elementPath)
+ |      boolean return values from special return code is coded manually here
+ |
+ |  cleanup(self)
+ |
+ |  close(self)
+ |
+ |  closeAllDocuments(self)
+ |
+ |  create(self, rootElementName)
+ |
+ |  createElement(self, parentPath, elementName)
+ |
+ |  createElementAtIndex(self, parentPath, elementName, index)
+ |
+ |  createElementNS(self, parentPath, qualifiedName, namespaceURI)
+ |
+ |  createElementNSAtIndex(self, parentPath, qualifiedName, index, namespaceURI)
+ |
+ |  dTDValidate(self, DTDFilename)
+ |
+ |  declareNamespace(self, elementPath, namespaceURI, prefix)
+ |
+ |  exportDocumentAsString(self)
+ |
+ |  exportElementAsString(self, elementPath)
+ |
+ |  getArray(self, arrayPath, elementName, arraySize)
+ |
+ |  getArrayDimensionNames(self, arrayPath, dimensionNames_len)
+ |
+ |  getArrayDimensionSizes(self, arrayPath, sizes_len)
+ |
+ |  getArrayDimensionValues(self, arrayPath, dimension, dimensionValues_len)
+ |
+ |  getArrayDimensions(self, arrayPath)
+ |
+ |  getArrayElementCount(self, arrayPath, elementName)
+ |
+ |  getArrayElementNames(self, arrayPath, elementType)
+ |
+ |  getArrayParameterNames(self, arrayPath, parameterNames_len)
+ |
+ |  getArrayParameters(self, arrayPath)
+ |
+ |  getArrayValue(self, array, dimSize, dimPos, dims)
+ |
+ |  getAttributeName(self, elementPath, attrIndex)
+ |
+ |  getBooleanAttribute(self, elementPath, attributeName)
+ |
+ |  getBooleanElement(self, elementPath)
+ |
+ |  getChildNodeName(self, parentElementPath, index)
+ |
+ |  getDocumentPath(self)
+ |
+ |  getDoubleAttribute(self, elementPath, attributeName)
+ |
+ |  getDoubleElement(self, elementPath)
+ |
+ |  getFloatVector(self, vectorPath, eNumber)
+ |
+ |  getIntegerAttribute(self, elementPath, attributeName)
+ |
+ |  getIntegerElement(self, elementPath)
+ |
+ |  getNamedChildrenCount(self, elementPath, childName)
+ |
+ |  getNodeType(self, nodePath)
+ |
+ |  getNumberOfAttributes(self, elementPath)
+ |
+ |  getNumberOfChilds(self, elementPath)
+ |
+ |  getPoint(self, pointParentPath)
+ |
+ |  getPrintMsgFunc(self)
+ |
+ |  getTextAttribute(self, elementPath, attributeName)
+ |
+ |  getTextElement(self, elementPath)
+ |
+ |  getVectorSize(self, vectorPath)
+ |
+ |  getVersion(self)
+ |
+ |  importElementFromString(self, parentPath, xmlImportString)
+ |
+ |  importElementFromStringAtIndex(self, parentPath, index, xmlImportString)
+ |
+ |  open(self, xmlInputFilename, recursive=False)
+ |
+ |  openDocument(self, xmlFilename)
+ |
+ |  openDocumentRecursive(self, xmlFilename, oMode)
+ |
+ |  openHttp(self, httpURL)
+ |
+ |  openString(self, xmlImportString)
+ |
+ |  registerNamespace(self, namespaceURI, prefix)
+ |
+ |  registerNamespacesFromDocument(self)
+ |
+ |  removeAttribute(self, elementPath, attributeName)
+ |
+ |  removeElement(self, elementPath)
+ |
+ |  removeExternalLinks(self)
+ |
+ |  renameElement(self, parentPath, oldName, newName)
+ |
+ |  save(self, fileName, recursive=False, remove=False)
+ |      Save the main tixi document.
+ |      If the document was opened recursively,
+ |       * 'recursive' tells to save linked nodes to their respecitve files, too.
+ |       * 'remove' tells to remove the links to external files after saving the complete CPACS inclusively all linked content to the main file.
+ |      You cannot have 'remove' without 'recursive'.
+ |
+ |  saveAndRemoveDocument(self, xmlFilename)
+ |
+ |  saveCompleteDocument(self, xmlFilename)
+ |
+ |  saveDocument(self, xmlFilename)
+ |
+ |  schemaValidateFromFile(self, xsdFilename)
+ |
+ |  schemaValidateFromString(self, xsdString)
+ |
+ |  schemaValidateWithDefaultsFromFile(self, xsdFilename)
+ |
+ |  setCacheEnabled(self, enabled)
+ |
+ |  setElementNamespace(self, elementPath, namespaceURI, prefix)
+ |
+ |  swapElements(self, element1Path, element2Path)
+ |
+ |  uIDCheckDuplicates(self)
+ |
+ |  uIDCheckExists(self, uID)
+ |
+ |  uIDCheckLinks(self)
+ |
+ |  uIDGetXPath(self, uID)
+ |
+ |  uIDSetToXPath(self, xPath, uID)
+ |
+ |  updateBooleanElement(self, elementPath, boolean)
+ |
+ |  updateDoubleElement(self, elementPath, number, format)
+ |
+ |  updateFloatVector(self, path, vector, numElements, format)
+ |
+ |  updateIntegerElement(self, elementPath, number, format)
+ |
+ |  updateTextElement(self, elementPath, text)
+ |
+ |  usePrettyPrint(self, usePrettyPrint)
+ |
+ |  xPathEvaluateNodeNumber(self, xPathExpression)
+ |
+ |  xPathExpressionGetTextByIndex(self, xPathExpression, elementNumber)
+ |
+ |  xPathExpressionGetXPath(self, xPathExpression, index)
+ |
+ |  xSLTransformationToFile(self, xslFilename, resultFilename)
+ |
+ |  xSLTransformationToString(self, xslFilename)
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      dictionary for instance variables
+ |
+ |  __weakref__
+ |      list of weak references to the object
+ |
+ |  ----------------------------------------------------------------------
+ |  Data and other attributes defined here:
+ |
+ |  lib = <CDLL 'C:\ProgramData\mambaforge_24.3.0.0\envs\c...shop\Library\...
+ |
+ |  name = r'C:\ProgramData\mambaforge_24.3.0.0\envs\cpacsWorkshop\Library...
