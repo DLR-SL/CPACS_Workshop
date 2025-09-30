@@ -1,0 +1,1 @@
+tixi_h.updateDoubleElement(actual_range_xpath, float(R), '%.1f')

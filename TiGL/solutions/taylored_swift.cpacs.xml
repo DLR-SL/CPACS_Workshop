@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpacs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://cpacs.googlecode.com/files/CPACS_21_Schema.xsd">
+  <header xsi:type="headerType">
+    <name>Empty aircraft</name>
+    <version>1.0.0</version>
+    <versionInfos>
+      <versionInfo version="1.0.0">
+        <cpacsVersion>3.0</cpacsVersion>
+        <creator>Malo Drougard</creator>
+        <description>Empty aircraft</description>
+        <timestamp>2019-02-27T14:12:47</timestamp>
+      </versionInfo>
+    </versionInfos>
+  </header>
+  <vehicles>
+    <aircraft>
+      <model uID="CpacsAircraft">
+        <name>Cpacs2Test</name>
+        <reference>
+          <area>1</area>
+          <length>1</length>
+          <point>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </point>
+        </reference>
+        <fuselages>
+          <fuselage uID="fuselage">
+            <name>fuselage</name>
+            <description>Fuselage generated from the function CCPACSFuselages::CreateFuselage</description>
+            <transformation uID="fuselageTransformation">
+              <scaling uID="fuselageTransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="fuselageTransformationRot">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="fuselageTransformationTransl">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="fuselageSec1">
+                <name>fuselageSec1</name>
+                <transformation uID="fuselageSec1Tr">
+                  <scaling uID="fuselageSec1TrScal">
+                    <x>0.11909</x>
+                    <y>0.0178549</y>
+                    <z>0.0178276</z>
+                  </scaling>
+                  <rotation uID="fuselageSec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec1Elem1">
+                    <name>fuselageSec1Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec1Elem1Tr">
+                      <scaling uID="fuselageSec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec2">
+                <name>fuselageSec2</name>
+                <transformation uID="fuselageSec2Tr">
+                  <scaling uID="fuselageSec2TrScal">
+                    <x>1</x>
+                    <y>0.0949907</y>
+                    <z>0.109991</z>
+                  </scaling>
+                  <rotation uID="fuselageSec2TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec2Elem1">
+                    <name>fuselageSec2Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec2Elem1Tr">
+                      <scaling uID="fuselageSec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec3">
+                <name>fuselageSec3</name>
+                <transformation uID="fuselageSec3Tr">
+                  <scaling uID="fuselageSec3TrScal">
+                    <x>1</x>
+                    <y>0.094994</y>
+                    <z>0.13499</z>
+                  </scaling>
+                  <rotation uID="fuselageSec3TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec3TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec3Elem1">
+                    <name>fuselageSec3Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec3Elem1Tr">
+                      <scaling uID="fuselageSec3Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec3Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec3Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec4">
+                <name>fuselageSec4</name>
+                <transformation uID="fuselageSec4Tr">
+                  <scaling uID="fuselageSec4TrScal">
+                    <x>1</x>
+                    <y>0.0699908</y>
+                    <z>0.109993</z>
+                  </scaling>
+                  <rotation uID="fuselageSec4TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec4TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec4Elem1">
+                    <name>fuselageSec4Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec4Elem1Tr">
+                      <scaling uID="fuselageSec4Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec4Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec4Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec5">
+                <name>fuselageSec5</name>
+                <transformation uID="fuselageSec5Tr">
+                  <scaling uID="fuselageSec5TrScal">
+                    <x>0.376237</x>
+                    <y>0.0564081</y>
+                    <z>0.0799897</z>
+                  </scaling>
+                  <rotation uID="fuselageSec5TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec5TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec5Elem1">
+                    <name>fuselageSec5Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec5Elem1Tr">
+                      <scaling uID="fuselageSec5Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec5Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec5Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec6">
+                <name>fuselageSec6</name>
+                <transformation uID="fuselageSec6Tr">
+                  <scaling uID="fuselageSec6TrScal">
+                    <x>0.291435</x>
+                    <y>0.043694</y>
+                    <z>0.0699686</z>
+                  </scaling>
+                  <rotation uID="fuselageSec6TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec6TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec6Elem1">
+                    <name>fuselageSec6Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec6Elem1Tr">
+                      <scaling uID="fuselageSec6Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec6Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec6Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec7">
+                <name>fuselageSec7</name>
+                <transformation uID="fuselageSec7Tr">
+                  <scaling uID="fuselageSec7TrScal">
+                    <x>0.188122</x>
+                    <y>0.0282045</y>
+                    <z>0.0649486</z>
+                  </scaling>
+                  <rotation uID="fuselageSec7TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec7TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec7Elem1">
+                    <name>fuselageSec7Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec7Elem1Tr">
+                      <scaling uID="fuselageSec7Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec7Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec7Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="fuselageSec8">
+                <name>fuselageSec8</name>
+                <transformation uID="fuselageSec8Tr">
+                  <scaling uID="fuselageSec8TrScal">
+                    <x>0.11909</x>
+                    <y>0.0178549</y>
+                    <z>0.0178276</z>
+                  </scaling>
+                  <rotation uID="fuselageSec8TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="fuselageSec8TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="fuselageSec8Elem1">
+                    <name>fuselageSec8Elem1</name>
+                    <profileUID>fuselageCircleProfileuID</profileUID>
+                    <transformation uID="fuselageSec8Elem1Tr">
+                      <scaling uID="fuselageSec8Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="fuselageSec8Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="fuselageSec8Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="fuselageSec1GenPos">
+                <name></name>
+                <length>0</length>
+                <sweepAngle>0</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>fuselageSec1</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec2GenPos">
+                <name></name>
+                <length>0.31763</length>
+                <sweepAngle>86.3899</sweepAngle>
+                <dihedralAngle>90</dihedralAngle>
+                <fromSectionUID>fuselageSec1</fromSectionUID>
+                <toSectionUID>fuselageSec2</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec3GenPos">
+                <name></name>
+                <length>0.31763</length>
+                <sweepAngle>86.3899</sweepAngle>
+                <dihedralAngle>90</dihedralAngle>
+                <fromSectionUID>fuselageSec2</fromSectionUID>
+                <toSectionUID>fuselageSec3</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec4GenPos">
+                <name></name>
+                <length>0.317158</length>
+                <sweepAngle>88.1932</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID>fuselageSec3</fromSectionUID>
+                <toSectionUID>fuselageSec4</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec5GenPos">
+                <name></name>
+                <length>0.318039</length>
+                <sweepAngle>89.0992</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID>fuselageSec4</fromSectionUID>
+                <toSectionUID>fuselageSec5</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec6GenPos">
+                <name></name>
+                <length>0.317</length>
+                <sweepAngle>90</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID>fuselageSec5</fromSectionUID>
+                <toSectionUID>fuselageSec6</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec7GenPos">
+                <name></name>
+                <length>0.317039</length>
+                <sweepAngle>89.0964</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID>fuselageSec6</fromSectionUID>
+                <toSectionUID>fuselageSec7</toSectionUID>
+              </positioning>
+              <positioning uID="fuselageSec8GenPos">
+                <name></name>
+                <length>0.317</length>
+                <sweepAngle>90</sweepAngle>
+                <dihedralAngle>-90</dihedralAngle>
+                <fromSectionUID>fuselageSec7</fromSectionUID>
+                <toSectionUID>fuselageSec8</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="fuselageSeg1">
+                <name>fuselageSeg1</name>
+                <fromElementUID>fuselageSec1Elem1</fromElementUID>
+                <toElementUID>fuselageSec2Elem1</toElementUID>
+              </segment>
+              <segment uID="fuselageSeg2">
+                <name>fuselageSeg2</name>
+                <fromElementUID>fuselageSec2Elem1</fromElementUID>
+                <toElementUID>fuselageSec3Elem1</toElementUID>
+              </segment>
+              <segment uID="fuselageSeg3">
+                <name>fuselageSeg3</name>
+                <fromElementUID>fuselageSec3Elem1</fromElementUID>
+                <toElementUID>fuselageSec4Elem1</toElementUID>
+              </segment>
+              <segment uID="fuselageSeg4">
+                <name>fuselageSeg4</name>
+                <fromElementUID>fuselageSec4Elem1</fromElementUID>
+                <toElementUID>fuselageSec5Elem1</toElementUID>
+              </segment>
+              <segment uID="fuselageSeg5">
+                <name>fuselageSeg5</name>
+                <fromElementUID>fuselageSec5Elem1</fromElementUID>
+                <toElementUID>fuselageSec6Elem1</toElementUID>
+              </segment>
+              <segment uID="fuselageSeg6">
+                <name>fuselageSeg6</name>
+                <fromElementUID>fuselageSec6Elem1</fromElementUID>
+                <toElementUID>fuselageSec7Elem1</toElementUID>
+              </segment>
+              <segment uID="fuselageSeg7">
+                <name>fuselageSeg7</name>
+                <fromElementUID>fuselageSec7Elem1</fromElementUID>
+                <toElementUID>fuselageSec8Elem1</toElementUID>
+              </segment>
+            </segments>
+          </fuselage>
+        </fuselages>
+        <wings>
+          <wing uID="wing" symmetry="x-z-plane">
+            <name>wing</name>
+            <description>Wing generated from the function CCPACSWings::CreateWing</description>
+            <transformation uID="wingTransformation">
+              <scaling uID="wingTransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="wingTransformationRot">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="wingTransformationTransl">
+                <x>0.900791</x>
+                <y>-9.84562e-18</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="wingSec1">
+                <name>wingSec1</name>
+                <transformation uID="wingSec1Tr">
+                  <scaling uID="wingSec1TrScal">
+                    <x>0.449977</x>
+                    <y>1</y>
+                    <z>0.582873</z>
+                  </scaling>
+                  <rotation uID="wingSec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="wingSec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="wingSec1Elem1">
+                    <name>wingSec1Elem1</name>
+                    <airfoilUID>NACA0006</airfoilUID>
+                    <transformation uID="wingSec1Elem1Tr">
+                      <scaling uID="wingSec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="wingSec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="wingSec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="wingSec2">
+                <name>wingSec2</name>
+                <transformation uID="wingSec2Tr">
+                  <scaling uID="wingSec2TrScal">
+                    <x>0.169983</x>
+                    <y>1</y>
+                    <z>0.416359</z>
+                  </scaling>
+                  <rotation uID="wingSec2TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="wingSec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="wingSec2Elem1">
+                    <name>wingSec2Elem1</name>
+                    <airfoilUID>NACA0006</airfoilUID>
+                    <transformation uID="wingSec2Elem1Tr">
+                      <scaling uID="wingSec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="wingSec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="wingSec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="wingSec1GenPos">
+                <name></name>
+                <length>0.185037</length>
+                <sweepAngle>-66.0886</sweepAngle>
+                <dihedralAngle>90</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>wingSec1</toSectionUID>
+              </positioning>
+              <positioning uID="wingSec2GenPos">
+                <name></name>
+                <length>2.03501</length>
+                <sweepAngle>0.0966625</sweepAngle>
+                <dihedralAngle>0.140776</dihedralAngle>
+                <fromSectionUID>wingSec1</fromSectionUID>
+                <toSectionUID>wingSec2</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="wingSeg1">
+                <name>wingSeg1</name>
+                <fromElementUID>wingSec1Elem1</fromElementUID>
+                <toElementUID>wingSec2Elem1</toElementUID>
+              </segment>
+            </segments>
+          </wing>
+          <wing uID="htp" symmetry="x-z-plane">
+            <name>htp</name>
+            <description>Wing generated from the function CCPACSWings::CreateWing</description>
+            <transformation uID="htpTransformation">
+              <scaling uID="htpTransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="htpTransformationRot">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="htpTransformationTransl">
+                <x>2.01006</x>
+                <y>-4.32373e-19</y>
+                <z>0.07</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="htpSec1">
+                <name>htpSec1</name>
+                <transformation uID="htpSec1Tr">
+                  <scaling uID="htpSec1TrScal">
+                    <x>0.224981</x>
+                    <y>0.20004</y>
+                    <z>0.20004</z>
+                  </scaling>
+                  <rotation uID="htpSec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="htpSec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="htpSec1Elem1">
+                    <name>htpSec1Elem1</name>
+                    <airfoilUID>NACA0006</airfoilUID>
+                    <transformation uID="htpSec1Elem1Tr">
+                      <scaling uID="htpSec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="htpSec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="htpSec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="htpSec2">
+                <name>htpSec2</name>
+                <transformation uID="htpSec2Tr">
+                  <scaling uID="htpSec2TrScal">
+                    <x>0.159983</x>
+                    <y>0.20004</y>
+                    <z>0.20004</z>
+                  </scaling>
+                  <rotation uID="htpSec2TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="htpSec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="htpSec2Elem1">
+                    <name>htpSec2Elem1</name>
+                    <airfoilUID>NACA0006</airfoilUID>
+                    <transformation uID="htpSec2Elem1Tr">
+                      <scaling uID="htpSec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="htpSec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="htpSec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="htpSec1GenPos">
+                <name></name>
+                <length>0.00706119</length>
+                <sweepAngle>-90</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>htpSec1</toSectionUID>
+              </positioning>
+              <positioning uID="htpSec2GenPos">
+                <name></name>
+                <length>0.492291</length>
+                <sweepAngle>5.53036</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID>htpSec1</fromSectionUID>
+                <toSectionUID>htpSec2</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="htpSeg1">
+                <name>htpSeg1</name>
+                <fromElementUID>htpSec1Elem1</fromElementUID>
+                <toElementUID>htpSec2Elem1</toElementUID>
+              </segment>
+            </segments>
+          </wing>
+          <wing uID="vtp" symmetry="none">
+            <name>vtp</name>
+            <description>Wing generated from the function CCPACSWings::CreateWing</description>
+            <transformation uID="vtpTransformation">
+              <scaling uID="vtpTransformationScal">
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation uID="vtpTransformationRot">
+                <x>90</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation uID="vtpTransformationTransl">
+                <x>1.875</x>
+                <y>0</y>
+                <z>0.08</z>
+              </translation>
+            </transformation>
+            <sections>
+              <section uID="vtpSec1">
+                <name>vtpSec1</name>
+                <transformation uID="vtpSec1Tr">
+                  <scaling uID="vtpSec1TrScal">
+                    <x>0.339983</x>
+                    <y>0.30006</y>
+                    <z>0.30006</z>
+                  </scaling>
+                  <rotation uID="vtpSec1TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="vtpSec1TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="vtpSec1Elem1">
+                    <name>vtpSec1Elem1</name>
+                    <airfoilUID>NACA0006</airfoilUID>
+                    <transformation uID="vtpSec1Elem1Tr">
+                      <scaling uID="vtpSec1Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="vtpSec1Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="vtpSec1Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+              <section uID="vtpSec2">
+                <name>vtpSec2</name>
+                <transformation uID="vtpSec2Tr">
+                  <scaling uID="vtpSec2TrScal">
+                    <x>0.169982</x>
+                    <y>0.30006</y>
+                    <z>0.30006</z>
+                  </scaling>
+                  <rotation uID="vtpSec2TrRot">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </rotation>
+                  <translation uID="vtpSec2TrTransl">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </translation>
+                </transformation>
+                <elements>
+                  <element uID="vtpSec2Elem1">
+                    <name>vtpSec2Elem1</name>
+                    <airfoilUID>NACA0006</airfoilUID>
+                    <transformation uID="vtpSec2Elem1Tr">
+                      <scaling uID="vtpSec2Elem1TrScal">
+                        <x>1</x>
+                        <y>1</y>
+                        <z>1</z>
+                      </scaling>
+                      <rotation uID="vtpSec2Elem1TrRot">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </rotation>
+                      <translation uID="vtpSec2Elem1TrTransl">
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                      </translation>
+                    </transformation>
+                  </element>
+                </elements>
+              </section>
+            </sections>
+            <positionings>
+              <positioning uID="vtpSec1GenPos">
+                <name></name>
+                <length>0.0193272</length>
+                <sweepAngle>-90</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID></fromSectionUID>
+                <toSectionUID>vtpSec1</toSectionUID>
+              </positioning>
+              <positioning uID="vtpSec2GenPos">
+                <name></name>
+                <length>0.413343</length>
+                <sweepAngle>9.22205</sweepAngle>
+                <dihedralAngle>0</dihedralAngle>
+                <fromSectionUID>vtpSec1</fromSectionUID>
+                <toSectionUID>vtpSec2</toSectionUID>
+              </positioning>
+            </positionings>
+            <segments>
+              <segment uID="vtpSeg1">
+                <name>vtpSeg1</name>
+                <fromElementUID>vtpSec1Elem1</fromElementUID>
+                <toElementUID>vtpSec2Elem1</toElementUID>
+              </segment>
+            </segments>
+          </wing>
+        </wings>
+        <!--
+        <genericGeometryComponents>
+          <genericGeometryComponent uID="swift_s1">
+            <name>nacelle</name>
+            <transformation>
+              <scaling>
+                <x>1</x>
+                <y>1</y>
+                <z>1</z>
+              </scaling>
+              <rotation>
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </rotation>
+              <translation refType="absLocal">
+                <x>0</x>
+                <y>0</y>
+                <z>0</z>
+              </translation>
+            </transformation>
+            <linkToFile format="Step">swift_s1.stp</linkToFile>
+          </genericGeometryComponent>
+        </genericGeometryComponents>
+        -->
+      </model>
+    </aircraft>
+    <profiles>
+      <wingAirfoils>
+        <wingAirfoil uID="NACA0006">
+          <name>NACA0006</name>
+          <pointList>
+            <x mapType="vector">1;0.998459;0.993844;0.986185;0.975528;0.96194;0.945503;0.92632;0.904508;0.880203;0.853553;0.824724;0.793893;0.761249;0.726995;0.691342;0.654508;0.616723;0.578217;0.53923;0.5;0.46077;0.421783;0.383277;0.345492;0.308658;0.273005;0.238751;0.206107;0.175276;0.146447;0.119797;0.095492;0.07368;0.054497;0.03806;0.024472;0.013815;0.006156;0.001541;0;0.001541;0.006156;0.013815;0.024472;0.03806;0.054497;0.07368;0.095492;0.119797;0.146447;0.175276;0.206107;0.238751;0.273005;0.308658;0.345492;0.383277;0.421783;0.46077;0.5;0.53923;0.578217;0.616723;0.654508;0.691342;0.726995;0.761249;0.793893;0.824724;0.853553;0.880203;0.904508;0.92632;0.945503;0.96194;0.975528;0.986185;0.993844;0.998459;1</x>
+            <y mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</y>
+            <z mapType="vector">0;-0.000112;-0.000446;-0.000995;-0.001751;-0.002699;-0.003825;-0.005111;-0.006535;-0.008079;-0.009719;-0.011434;-0.013202;-0.015;-0.016805;-0.018594;-0.020343;-0.022027;-0.023621;-0.025098;-0.026431;-0.027592;-0.028554;-0.029291;-0.029778;-0.029994;-0.029921;-0.029544;-0.028856;-0.027854;-0.026541;-0.024927;-0.023024;-0.020853;-0.018433;-0.01579;-0.012947;-0.009927;-0.006752;-0.003438;0;0.003438;0.006752;0.009927;0.012947;0.01579;0.018433;0.020853;0.023024;0.024927;0.026541;0.027854;0.028856;0.029544;0.029921;0.029994;0.029778;0.029291;0.028554;0.027592;0.026431;0.025098;0.023621;0.022027;0.020343;0.018594;0.016805;0.015;0.013202;0.011434;0.009719;0.008079;0.006535;0.005111;0.003825;0.002699;0.001751;0.000995;0.000446;0.000112;0</z>
+          </pointList>
+        </wingAirfoil>
+      </wingAirfoils>
+      <fuselageProfiles>
+        <fuselageProfile uID="fuselageCircleProfileuID">
+          <name>Circle</name>
+          <description>Profile build up from set of Points on Circle where may Dimensions are 1..-1</description>
+          <pointList>
+            <x mapType="vector">0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0</x>
+            <y mapType="vector">0;0.0774924;0.154519;0.230616;0.305326;0.3782;0.448799;0.516699;0.581492;0.642788;0.700217;0.753436;0.802123;0.845986;0.884762;0.918216;0.946148;0.96839;0.984808;0.995303;0.999812;0.998308;0.9908;0.977334;0.95799;0.932884;0.902167;0.866025;0.824675;0.778365;0.727374;0.672008;0.612601;0.549509;0.483113;0.413811;0.34202;0.268173;0.192712;0.116093;0.0387754;-0.0387754;-0.116093;-0.192712;-0.268173;-0.34202;-0.413811;-0.483113;-0.549509;-0.612601;-0.672008;-0.727374;-0.778365;-0.824675;-0.866025;-0.902167;-0.932884;-0.95799;-0.977334;-0.9908;-0.998308;-0.999812;-0.995303;-0.984808;-0.96839;-0.946148;-0.918216;-0.884762;-0.845986;-0.802123;-0.753436;-0.700217;-0.642788;-0.581492;-0.516699;-0.448799;-0.3782;-0.305326;-0.230616;-0.154519;-0.0774924;0</y>
+            <z mapType="vector">1;0.996993;0.98799;0.973045;0.952248;0.925724;0.893633;0.856167;0.813552;0.766044;0.71393;0.657521;0.597159;0.533204;0.466044;0.39608;0.323734;0.249441;0.173648;0.0968109;0.0193913;-0.0581448;-0.135331;-0.211704;-0.286803;-0.360178;-0.431386;-0.5;-0.565607;-0.627812;-0.686242;-0.740544;-0.790393;-0.835488;-0.875558;-0.910363;-0.939693;-0.963371;-0.981255;-0.993238;-0.999248;-0.999248;-0.993238;-0.981255;-0.963371;-0.939693;-0.910363;-0.875558;-0.835488;-0.790393;-0.740544;-0.686242;-0.627812;-0.565607;-0.5;-0.431386;-0.360178;-0.286803;-0.211704;-0.135331;-0.0581448;0.0193913;0.0968109;0.173648;0.249441;0.323734;0.39608;0.466044;0.533204;0.597159;0.657521;0.71393;0.766044;0.813552;0.856167;0.893633;0.925724;0.952248;0.973045;0.98799;0.996993;1</z>
+          </pointList>
+        </fuselageProfile>
+      </fuselageProfiles>
+    </profiles>
+  </vehicles>
+  <toolspecific/>
+</cpacs>

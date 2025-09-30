@@ -1,0 +1,13 @@
+name: cpacsWorkshop
+channels:
+  - conda-forge
+  - dlr-sc
+dependencies:
+  - python
+  - tigl3==3.5.0rc1
+  - matplotlib 
+  - pythreejs
+  - svgwrite
+  - jupyterlab
+  - pandas
+  

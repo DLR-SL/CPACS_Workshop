@@ -1,4 +1,2 @@
-# CPACS_Workshop
-Material for CPACS workshop
+# CPACS Workshop Hands-On
 
-Open with mybinder: https://mybinder.org/v2/gh/DLR-SL/CPACS_Workshop/HEAD
